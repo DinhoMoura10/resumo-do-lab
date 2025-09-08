@@ -61,3 +61,39 @@ Refere-se às despesas contínuas para manter um negócio ou sistema funcionando
 
 -   Gasto com produtos e serviços conforme a necessidade (pay-as-you-go).
 -   A cobrança é imediata e recorrente (geralmente mensal).
+
+# Principais Conceitos de Nuvem
+
+Este documento descreve os principais conceitos relacionados à computação em nuvem, incluindo alta disponibilidade, escalabilidade e outros princípios essenciais.
+
+---
+
+## Alta Disponibilidade (HA) e SLAs
+
+A **Alta Disponibilidade (HA)** se concentra em garantir o tempo de atividade máximo para aplicações e serviços, independentemente de interrupções ou eventos disruptivos. Um componente-chave da HA é o **Acordo de Nível de Serviço (SLA)**, que é um compromisso do provedor de nuvem em relação ao desempenho e à disponibilidade.
+
+
+## Princípios Fundamentais da Nuvem
+
+Aqui estão vários conceitos fundamentais que definem a infraestrutura de nuvem moderna:
+
+### Escalabilidade
+A capacidade de ajustar o tamanho e a capacidade da sua infraestrutura para atender à demanda. Com a escalabilidade da nuvem, você paga apenas pelos recursos que estão sendo usados.
+
+### Elasticidade
+Esta é uma forma de escalabilidade que se adapta automaticamente a mudanças no uso. Ela permite que os recursos aumentem ou diminuam sua capacidade automaticamente e em tempo real, sem intervenção humana, para lidar com as flutuações da demanda.
+
+### Confiabilidade
+A confiabilidade da nuvem se baseia em uma estratégia robusta de recuperação de desastres. Ela garante que não haverá perda de dados, mesmo que ocorra um evento catastrófico em um data center ou região específica.
+
+### Previsibilidade
+A previsibilidade da nuvem permite que você gerencie com confiança tanto o desempenho quanto o custo da sua infraestrutura. Isso inclui a previsão de necessidades de recursos e despesas para evitar surpresas.
+
+### Segurança
+Embora o provedor de nuvem ofereça uma ampla gama de ferramentas de segurança, a implementação e a gestão dessas ferramentas são de responsabilidade do cliente. Isso é frequentemente chamado de **modelo de responsabilidade compartilhada**.
+
+### Governança
+A governança da nuvem ajuda a manter o controle sobre seus recursos e garante que eles estejam em conformidade com as políticas da sua organização. Ela inclui a auditoria de recursos e, em alguns casos, a aplicação automática de patches e atualizações de software.
+
+### Gerenciabilidade
+A facilidade com que os recursos de nuvem podem ser gerenciados e administrados. Ela oferece a flexibilidade de organizar e controlar seu ambiente da maneira que melhor se adapte às suas necessidades e preferências.
