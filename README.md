@@ -129,3 +129,51 @@ Uma **Rede Virtual (VNet)** é a base da sua rede privada no Azure. Ela permite 
 8.  Clique em **"Revisar + criar"** e, depois, em **"Criar"**.
 
 Sua Rede Virtual, agora contida no grupo de recursos, está pronta para hospedar recursos como máquinas virtuais.
+
+# 🚀 Guia para Criar uma Máquina Virtual (VM) no Azure
+
+Este guia detalhado oferece um passo a passo para a criação de uma **Máquina Virtual (VM)** no Microsoft Azure, ideal para quem está começando. Siga as instruções para configurar seu servidor de forma rápida e eficiente.
+
+---
+## Criacao de maquina virtual 
+
+### 1. Acesso ao Portal do Azure
+
+1.  Acesse o portal do Azure em **https://portal.azure.com**.
+2.  Faça login com sua conta.
+
+### 2. Início da Criação da VM
+
+1.  Na barra de pesquisa no topo do portal, digite `Máquinas Virtuais`.
+2.  Clique no resultado e, em seguida, no botão **+ Criar**.
+3.  Selecione **Máquina virtual do Azure**.
+
+### 3. Configurações Básicas da VM
+
+Preencha os seguintes campos no painel "Básico":
+
+-   **Assinatura**: Selecione sua assinatura do Azure.
+-   **Grupo de recursos**: Crie um novo grupo para seus recursos. Clique em **Criar novo** e insira um nome descritivo (ex: `rg-meu-projeto`).
+-   **Nome da máquina virtual**: Dê um nome único e fácil de identificar para sua VM (ex: `servidor-web-01`).
+-   **Região**: Escolha a localização do datacenter. Selecione a região mais próxima de seus usuários para reduzir a latência.
+-   **Imagem**: Selecione o sistema operacional que deseja utilizar (ex: `Ubuntu Server 20.04 LTS` ou `Windows Server 2022 Datacenter`).
+-   **Tamanho**: Escolha o tamanho da VM com base nas suas necessidades de desempenho (vCPU e RAM).
+-   **Conta do administrador**:
+    -   Crie um **Nome de usuário**.
+    -   Escolha o **Tipo de autenticação** (senha para Windows, chave SSH para Linux).
+
+### 4. Configuração da Rede
+
+Nesta etapa, você define as regras de entrada de tráfego para sua VM.
+
+-   Em **Portas de entrada públicas**, selecione **Permitir portas selecionadas**.
+-   Na lista suspensa **Selecionar portas de entrada comuns**, marque as portas necessárias para acesso:
+    -   **SSH (22)**: Para acesso remoto via terminal a VMs Linux.
+    -   **RDP (3389)**: Para acesso remoto a VMs Windows via Área de Trabalho Remota.
+
+### 5. Revisão e Implantação
+
+1.  Clique em **Revisar + criar**.
+2.  Verifique o resumo das configurações e o custo mensal estimado.
+3.  Se tudo estiver correto, clique em **Criar** para iniciar o processo de implantação.
+
