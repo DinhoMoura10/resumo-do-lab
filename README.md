@@ -395,3 +395,47 @@ Este documento resume os principais recursos de governança e conformidade dispo
     * [cite_start]Classificação de dados confidenciais [cite: 134]
     * [cite_start]Linhagem de dados de ponta a ponta [cite: 135]
 
+
+
+# [cite_start]Módulo 3: Ferramentas de Gerenciamento e Implantação no Azure [cite: 96, 104]
+
+Este documento resume as ferramentas e conceitos para implantar e gerenciar recursos no ecossistema do Microsoft Azure.
+
+## [cite_start]Ferramentas para Interagir com o Azure [cite: 114]
+
+Existem várias ferramentas para gerenciar os recursos do Azure:
+* [cite_start]Portal do Azure [cite: 116]
+* [cite_start]Azure PowerShell [cite: 116]
+* [cite_start]Azure Cloud Shell [cite: 116]
+* [cite_start]Interface de Linha de Comando (CLI) [cite: 116]
+
+## Azure Resource Manager (ARM)
+
+[cite_start]O ARM (Azure Resource Manager) é a camada de gerenciamento do Azure que permite criar, atualizar e excluir recursos em uma assinatura. [cite_start]Todas as ferramentas, como o Portal e a CLI, enviam suas solicitações para o ARM.
+
+## Azure Arc
+
+[cite_start]O Azure Arc é um serviço que estende o gerenciamento do Azure para ambientes locais, multinuvem e de borda.
+
+## [cite_start]Infraestrutura como Código (IaC) [cite: 127, 130]
+
+A IaC é uma prática que traz diversos benefícios:
+* [cite_start]Garante consistência na implantação entre diferentes ambientes.
+* [cite_start]Permite gerenciar a configuração em escala[cite: 126].
+* [cite_start]Possibilita provisionar rapidamente novos ambientes com base em um padrão.
+
+## [cite_start]Modelos do ARM (Azure Resource Manager) [cite: 133, 141, 143]
+
+Os modelos do ARM são a implementação de IaC da Microsoft.
+* [cite_start]São arquivos no formato JSON (JavaScript Object Notation).
+* [cite_start]Permitem criar e implantar a infraestrutura do Azure usando sintaxe declarativa, sem a necessidade de escrever comandos de programação[cite: 132, 135].
+* **Principais características:**
+    * [cite_start]Resultados repetíveis 
+    * [cite_start]Orquestração de implantações complexas 
+    * [cite_start]Suporte a arquivos modulares [cite: 138]
+    * [cite_start]Validação integrada para verificar o modelo antes da implantação 
+    * [cite_start]Código exportável a partir de recursos existentes [cite: 140]
+
+## [cite_start]Bicep [cite: 146]
+
+[cite_start]O Bicep é outra linguagem para implantar recursos do Azure de forma declarativa.
