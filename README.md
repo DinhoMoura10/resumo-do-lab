@@ -304,4 +304,52 @@ O **Microsoft Defender para Nuvem** é uma solução de gerenciamento de postura
 -   **Detecção de Ameaças:** Utiliza análise avançada e inteligência contra ameaças para detectar e alertar sobre atividades maliciosas, como malware, acesso incomum e outras ameaças.
 -   **Proteção Abrangente:** Protege VMs, bancos de dados, contêineres, armazenamento e outros serviços do Azure.
 
+# [cite_start]Módulo 3: Gerenciamento e Governança de Custos no Azure [cite: 3]
+
+[cite_start]Este documento resume os principais conceitos de gerenciamento de custos e governança no Microsoft Azure, com base nos tópicos da certificação AZ-900. [cite: 1]
+
+## [cite_start]Fatores que Afetam os Custos [cite: 22, 25, 28, 31, 34, 37]
+
+[cite_start]Entender os fatores que influenciam os custos é fundamental para uma gestão financeira eficiente na nuvem. [cite: 13]
+
+* [cite_start]**1) Tipo de Recurso:** Os custos são específicos do recurso, portanto, o uso que um medidor rastreia e o número de medidores associados a um recurso dependem do tipo de recurso. [cite: 23]
+* [cite_start]**2) Consumo:** Com um modelo pago conforme o uso, o consumo é um dos maiores geradores de custos. [cite: 26]
+* [cite_start]**3) Manutenção:** Monitorar seu volume do Azure e manter seu ambiente pode ajudá-lo a identificar e reduzir os custos que não são necessários, como ao desligar máquinas virtuais subutilizadas. [cite: 29]
+* [cite_start]**4) Área Geográfica:** O mesmo tipo de recurso pode custar valores diferentes dependendo da área geográfica, o que afeta os custos do Azure. [cite: 32]
+* [cite_start]**5) Tráfego de Rede:** Embora algumas transferências de dados de entrada sejam gratuitas, o custo para dados de saída ou dados entre recursos do Azure é afetado por zonas de cobrança. [cite: 35]
+* [cite_start]**6) Assinatura:** O tipo e a configuração da assinatura também podem afetar o custo. [cite: 38] [cite_start]Por exemplo, a avaliação gratuita permite explorar alguns recursos do Azure gratuitamente. [cite: 38]
+
+## Ferramentas de Estimativa de Custos
+
+O Azure oferece ferramentas para ajudar a prever e analisar os gastos.
+
+### [cite_start]Calculadora de Preços [cite: 51, 54, 58]
+[cite_start]A calculadora de preços é uma ferramenta que ajuda a estimar o custo dos produtos do Azure. [cite: 56] [cite_start]As principais opções de configuração incluem: [cite: 57]
+* [cite_start]Região [cite: 60]
+* [cite_start]Camada [cite: 61]
+* [cite_start]Opções de cobrança [cite: 62]
+* [cite_start]Opções de suporte [cite: 63]
+* [cite_start]Programas e ofertas [cite: 64]
+
+### [cite_start]Calculadora de Custo Total de Propriedade (TCO) [cite: 66, 70]
+[cite_start]É uma ferramenta para estimar a economia de custos possível ao migrar para o Azure. [cite: 68] [cite_start]Um relatório compara os custos das infraestruturas locais com os custos de uso de produtos e serviços do Azure na nuvem. [cite: 69]
+
+## [cite_start]Gerenciamento de Custos do Azure [cite: 75, 81]
+
+[cite_start]O **Azure Cost Management** é uma ferramenta completa para monitorar e otimizar os custos na nuvem. [cite: 17] Suas funcionalidades incluem:
+* [cite_start]**Relatórios de Cobrança:** Fornece relatórios de cobrança. [cite: 73]
+* [cite_start]**Enriquecimento de Dados:** Permite o enriquecimento de dados para análise. [cite: 74]
+* [cite_start]**Orçamentos:** Ajuda a definir um orçamento de gastos. [cite: 78]
+* [cite_start]**Alertas:** Envia notificações quando o custo excede os limites definidos. [cite: 79]
+* [cite_start]**Recomendações:** Oferece recomendações de custo. [cite: 80]
+
+## [cite_start]Marcas (Tags) [cite: 83, 89]
+
+As marcas são um componente essencial para a organização e governança de recursos.
+
+* [cite_start]**Metadados:** Fornecem metadados aos recursos do Azure. [cite: 85]
+* [cite_start]**Organização:** Permitem organizar os recursos em uma taxonomia de maneira lógica. [cite: 86]
+* [cite_start]**Estrutura:** Consistem em um par nome-valor. [cite: 87]
+* [cite_start]**Análise de Custos:** São muito úteis para reunir informações de cobrança. [cite: 88]
+
 
