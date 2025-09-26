@@ -353,3 +353,45 @@ As marcas são um componente essencial para a organização e governança de rec
 * [cite_start]**Análise de Custos:** São muito úteis para reunir informações de cobrança. [cite: 88]
 
 
+
+# Módulo 3: Governança e Conformidade no Azure
+
+Este documento resume os principais recursos de governança e conformidade disponíveis no Microsoft Azure.
+
+## Azure Policy
+
+[cite_start]O Azure Policy ajuda a impor padrões organizacionais e a avaliar a conformidade em escala[cite: 112].
+
+* [cite_start]Fornece governança e consistência de recursos, com foco em conformidade regulatória, segurança, custo e gerenciamento[cite: 113].
+* [cite_start]Avalia e identifica os recursos do Azure que não estão em conformidade com as políticas definidas[cite: 116].
+* [cite_start]Oferece definições de políticas e iniciativas integradas para diversas categorias, como armazenamento, rede, computação e monitoramento[cite: 117].
+
+## Bloqueios de Recursos
+
+[cite_start]Os bloqueios de recursos servem para proteger os recursos do Azure contra exclusão ou modificação acidental.
+
+* [cite_start]Os bloqueios podem ser gerenciados nos níveis de assinatura, grupo de recursos ou em recursos individuais[cite: 121].
+* Existem dois tipos de bloqueio:
+
+| Tipos de bloqueio | Ler | Atualizar | Excluir |
+| ----------------- | --- | --------- | ------- |
+| **Excluir** | Sim | Sim       | Não     |
+| **ReadOnly** | Sim | Não       | Não     |
+
+[cite_start]*Fonte: *
+
+## Portal de Confiança do Serviço (Service Trust Portal)
+
+[cite_start]O Portal de Confiança do Serviço é o local central da Microsoft para obter documentação sobre confiança, segurança e conformidade.
+
+## Microsoft Purview
+
+[cite_start]É uma família de soluções de governança de dados, risco e conformidade.
+
+* [cite_start]Reúne insights sobre dados que estão no ambiente local, em multinuvem e em software como serviço (SaaS).
+* [cite_start]Oferece uma visão unificada dos dados.
+* Suas principais funcionalidades incluem:
+    * [cite_start]Descoberta de dados automatizada [cite: 133]
+    * [cite_start]Classificação de dados confidenciais [cite: 134]
+    * [cite_start]Linhagem de dados de ponta a ponta [cite: 135]
+
